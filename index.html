@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>CE Jaramillo&amp;Asociados - Home</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="icon" type="image/ico" href="images/favicon-32.png">
+        
+        <!--Responsive website -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+        
+        
+        <!-- Font Awesome (icons)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <!--Reset HTML for default Style-->
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+
+        <!--Set HTML Style-->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+                
+    </head>
+    
+    <body>
+        <header class="navigation" id="barMenu">
+            
+            <nav class="navBar" id="navBar">
+                <ul>
+                    <li class="logo"><a href="index.html" class="mobileLogoWhole">
+                        <img src="images/logoCEJA.svg" alt="logo CEJA" class="menuLogo">
+                        <span>
+                            <span class="nameOne">consultoría empresarial</span>
+                            <br><span class="nameTwo">Jaramillo &amp; Asociados SAS</span>
+                        </span></a>
+                    </li>
+                    <li><a href="pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="pages/servicios.html">Servicios</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <section class="mobileMenu">
+                <a href="#" class="mobileLogoWhole">
+                    <img src="images/logoCEJA.svg" alt="logo CEJA" class="mobileLogo"> 
+                    <span>
+                        <span class="nameOne">consultoría empresarial</span>
+                        <br><span class="nameTwo">Jaramillo &amp; Asociados SAS</span>
+                    </span>
+                </a>  
+
+                <!-- Button close-open -->
+                <button class="toggle-btn" onclick="myFunction()">
+                    <i class="fa-solid fa-bars" id="bars"></i>
+                    <i class="fa-solid fa-xmark" id="xmark"></i>
+                </button>
+            </section> 
+        </header>
+        <section class="hero">
+            
+            <blockquote>
+                <h1><span class="nameOne">consultoría empresarial</span><br><span class="nameTwo">Jaramillo &amp; Asociados SAS</span></h1><br>
+                Líderes en la prestación de servicios integrales de consultoría contable, financiera y tributaria; auditorías y revisoría fiscal.
+                <br>
+                <button class="btn-contact" id="btn-contact" onclick="hrefFunction()">Contáctanos</button>               
+            </blockquote>
+        </section>
+        
+        <main class="servicesCeja">
+            <h2>Nuestros Servicios</h2>
+            <section class="services-containers">
+                <div class="service">
+                    <img src="images/outContable.svg" alt="outsorcingContable">
+                    <section class="service-txt">
+                        <h3>Outsourcing contable</h3>
+                        <p><a href="pages/servOutCont.html">Ver más</a></p>
+                    </section>                    
+                </div>
+
+                <div class="service">
+                    <img src="images/aTributaria.svg" alt="asesoriaTributaria">
+                    <section class="service-txt">
+                        <h3>Asesoría Tributaria</h3>
+                        <p><a href="pages/servAsesTrib.html">Ver más</a></p>
+                    </section>                    
+                </div>
+
+                <div class="service">
+                    <img src="images/aFinanciera.svg" alt="asesoriaFinanciera">
+                    <section class="service-txt">
+                        <h3>Asesoría Financiera</h3>
+                        <p><a href="pages/servAsesFinan.html">Ver más</a></p>
+                    </section>                    
+                </div>
+
+                <div class="service">
+                    <img src="images/audFiscal.svg" alt="auditoriaRevisoriaFiscal">
+                    <section class="service-txt">
+                        <h3>Auditorías y Revisoría Fiscal</h3>
+                        <p></p>
+                        <p><a href="pages/servAudRevFiscal.html">Ver más</a></p>
+                    </section>                        
+                </div>                
+            </section>              
+        </main>
+        <a href="https://wa.me/573127761345"  class="contact-ws-btn" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <footer class="footer">
+            <section class="business-info">
+                <section class="footer-contact">
+                    <h2>Contacto</h2>
+                    <ul>                        
+                        <li><i class="fa-solid fa-calendar-days"></i>Lun-Vie 8:00am - 5:00pm</li>
+                        <li><a href="https://goo.gl/maps/itaskhnJSsLi7vcp9"><i class="fa-solid fa-location-dot"></i>Cr. 98 # 48 - 30, apto 223. Cali-Valle</a></li>
+                        <li><a href="tel:+576023087053"><i class="fa-solid fa-square-phone"></i>(57) 602 308 70 53</a></li>
+                        <li><a href="tel:+573127761345"><i class="fa-solid fa-mobile-screen"></i>(57) 312 776 13 45</a> -
+                            <a href="tel:+573117542175">(57)3117542175</a>
+                        </li>
+                        <li><a href="mailto:info@cejaramilloyasociados.com"><i class="fa-regular fa-envelope"></i>info@cejaramilloyasociados.com</a></li>
+                    </ul>
+                </section>
+
+                <section class="socialMedia">
+                    <h2>Síguenos</h2>
+                    <ul>                        
+                        <li><a href="https://www.facebook.com/cejaramilloyasociados/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/cejaramilloyasociadossas/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/consultoria-empresarial-jaramillo-y-asociados-sas/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://t.me/573127761345" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+                        
+                    </ul>
+                </section>
+                                
+            </section>           
+
+            <ul class="copyRight">
+                <li>&copy; Consultoría Empresarial Jaramillo & Asociados SAS. 2023. All Rights Reserved</li>
+                <li><a href="https://fibxites.github.io/fibxites/" target="_blank">Powered by FIBXITES</a></li>
+            </ul>
+
+        </footer>
+        <script src="scripts/script.js"></script>             
+    </body>
+</html>
